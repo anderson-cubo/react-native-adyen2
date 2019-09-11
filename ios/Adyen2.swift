@@ -24,7 +24,7 @@ class Adyen2: NSObject {
                 "number": encryptedCard.number,
                 "expiryYear": encryptedCard.expiryYear,
                 "expiryMonth": encryptedCard.expiryMonth,
-                "securityCode": encryptedCard.securityCode
+                "cvc": encryptedCard.securityCode
             ])
     }
 }

@@ -1,6 +1,6 @@
 #import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(RNAdyen2, NSObject)
+@interface RCT_EXTERN_MODULE(Adyen2, NSObject)
 
     RCT_EXTERN_METHOD(encryptCard:(NSDictionary *)params
                       resolver:(RCTPromiseResolveBlock)resolve
